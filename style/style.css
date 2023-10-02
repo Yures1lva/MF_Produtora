@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "ReadexPro";
+  src: url("/assets/fonts/ReadexPro/ttf/ReadexPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OdibeeSans";
+  src: url("/assets/fonts/OdibeeSans/OdibeeSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "Play";
+  src: url("/assets/fonts/Play/Play-Regular.ttf");
+}
+
+.button-text {
+  text-align: center;
+  font-family: "ReadexPro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76.523%; /* 0.86088rem */
+  letter-spacing: 0.26438rem;
+}
+
+.h1 {
+  font-family: "Play";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.523%;
+  letter-spacing: -0.065rem;
+}
+
+.h2 {
+  font-family: "ReadexPro";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108.523%; /* 1.49219rem */
+  letter-spacing: 0.08938rem;
+}
+
+.p {
+  font-family: "ReadexPro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 108.523%; /* 1.08525rem */
+  letter-spacing: 0.065rem;
+}
+
+.link {
+  /* P */
+  font-family: "ReadexPro";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 76.523%; /* 13.774px */
+  letter-spacing: 4.23px;
+}
