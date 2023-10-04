@@ -1,6 +1,11 @@
 tailwind.config = {
   theme: {
+
     extend: {
+      container:{
+        center:true,
+      },
+
       colors: {
         primary: "#1758FF",
         dark: "#000510",
