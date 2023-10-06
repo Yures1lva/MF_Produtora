@@ -8,11 +8,9 @@
 .imgFundo div{
     
     align-items: center;
-    max-width: 70rem;
-    margin: 0.5rem auto;
-    padding: 0 1rem;
 
-    height: 500px;
+
+    height: 648px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -34,7 +32,7 @@ strong{
 
 p{
     max-width: 523px;
-    margin: 10px 0; 
+    margin: 20px 0; 
 
     font-size: 1.125rem;
     font-style: normal;

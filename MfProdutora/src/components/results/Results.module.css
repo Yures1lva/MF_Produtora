@@ -1,0 +1,15 @@
+.background{
+    background-image: url("../../assets/imgs/results.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;  
+}
+
+
+h3 span{
+    color: var(--primary);
+}
+
+.title-sction{
+    margin-bottom: 60px;
+}

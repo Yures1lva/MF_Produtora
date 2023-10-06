@@ -5,7 +5,7 @@ export function Nav(){
     return (
         <>
             <header>
-                <nav>
+                <nav className="container">
                     <a className={styles.logo} href=""><img src="" alt="logo" />logo</a>
                     <ul>
                     <li><a  href="">Início</a></li>

@@ -4,7 +4,7 @@ export function TopContent(){
     return(
         <>
             <div className={styles.imgFundo}>
-                <div >
+                <div className="container">
                     <strong>MF  Produtora</strong>
                 
                    
