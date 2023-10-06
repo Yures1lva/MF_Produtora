@@ -1,0 +1,39 @@
+.imgFundo {
+    background-image: url("../../assets/imgs/top-content.png");
+    margin: 0;
+    padding: 0;
+    background-size: cover;    
+}
+
+.imgFundo div{
+    
+    align-items: center;
+    max-width: 70rem;
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+strong{
+    color: #F6F6F6;
+    text-align: center;
+
+    /* H1R */
+    font-family: "Odibee Sans";
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 102.523%; /* 53.312px */
+    letter-spacing: -1.04px;
+}
+
+p{
+    max-width: 523px;
+    margin: 10px 0; 
+}
+
