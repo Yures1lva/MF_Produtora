@@ -1,7 +1,4 @@
-header{
-    
 
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -11,17 +8,6 @@ nav{
     padding: 0 1rem;
 }
 
-.logo{
-
-}
-
-.logo:hover{
-
-}
-
-.logo img{
-
-}
 
 ul{
 
@@ -40,10 +26,32 @@ ul li:hover{
     transform: scale(1.1);
 }
 
-ul li button{
-   
-}
 
 ul li button:hover{
     font-weight: 600;
+}
+
+@media (max-width: 768px){
+
+    nav{
+    
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    ul{
+
+        flex-direction: column;
+        align-items: flex-end;
+    
+    }
+
+    ul li{
+        margin: 0.9375rem 0;
+        transition: all ease .2s;
+    }
+    
+    
+
 }
