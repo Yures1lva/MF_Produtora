@@ -1,0 +1,49 @@
+header{
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70rem;
+    margin: 0.5rem auto;
+    padding: 0 1rem;
+}
+
+.logo{
+
+}
+
+.logo:hover{
+
+}
+
+.logo img{
+
+}
+
+ul{
+
+    display: flex;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 15px;
+    transition: all ease .2s;
+}
+
+ul li:hover{
+    transform: scale(1.1);
+}
+
+ul li button{
+   
+}
+
+ul li button:hover{
+    font-weight: 600;
+}
