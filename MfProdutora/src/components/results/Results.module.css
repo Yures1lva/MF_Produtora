@@ -1,15 +1,25 @@
 .background{
     background-image: url("../../assets/imgs/results.png");
     margin: 0;
-    padding: 0;
-    background-size: cover;  
+    height: 603px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    align-items: flex-end;
 }
 
+
+.background div p{
+    margin-bottom: 125px;
+}
 
 h3 span{
     color: var(--primary);
 }
 
-.title-sction{
-    margin-bottom: 60px;
+h3{
+    display: block;
+    /* height: 1000px; */
+    margin-top: 50px;
 }

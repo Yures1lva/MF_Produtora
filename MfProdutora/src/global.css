@@ -43,14 +43,11 @@ a:hover {
 body {
   background-color: var(--background);
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 h1 {
   font-size: 3.2em;
