@@ -1,4 +1,6 @@
+import { ComponetResult } from './Component.Result'
 import styles from './Results.module.css'
+import divider from '../../App.module.css'
 
 export function Results(){
     return(
@@ -10,19 +12,10 @@ export function Results(){
         </div>
         <h3 className='container'>Conheça o resultado de<br></br> nossos melhores <span>Projetos</span></h3>
 
-        <article  className='container'>
-            <div>
-                <img src="" alt="" />
-                <div>
-                    <h4>Jr Soluções em Construções</h4>
-                    <ul>
-                        <li>Tucuruí - PA</li>
-                        <li>Video comercial</li>
-                        <li>20/05/2023</li>
-                    </ul>
-                    </div>
-            </div>
-        </article>
+        <ComponetResult/>
+        <div className={divider.divider}></div>
+        <ComponetResult/>
+
         </>
     )
 }

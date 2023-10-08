@@ -23,3 +23,93 @@ h3{
     /* height: 1000px; */
     margin-top: 50px;
 }
+
+/* ComponentsResults*/
+
+.TopContent{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.imagePerfil{
+   
+   width: 217px; 
+   height: 182px;
+   color: aliceblue;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   border: 2px solid red;
+}
+
+.descript{
+    border-radius: 5px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.descript h4{
+    margin: 0 0 10px 0;
+    padding: 0;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.523%; /* 23.875px */
+    letter-spacing: 1.43px;
+}
+
+.descript ul{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.descript ul li{
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108.523%; /* 17.364px */
+    letter-spacing: 1.04px;
+    color: var(--support-02);
+}
+
+.descript ul li:hover{
+    transform: none;
+}
+
+
+.introImages{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.introImages div{
+    flex: 1;
+    height: 290px;
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid red;
+}
