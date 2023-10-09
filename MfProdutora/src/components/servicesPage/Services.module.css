@@ -40,7 +40,7 @@ h3 span{
     flex-direction: row;
     gap: 1%;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .card{
@@ -133,7 +133,7 @@ h3 span{
 }
 .mScroll__title > div {
         display: flex;      
-        animation: scrollText 18s infinite linear;
+        animation: scrollText 15s infinite linear;
       }    
 .mScroll__title  h2 {
     color: var(--background);
@@ -155,7 +155,6 @@ h3 span{
       }  
   /*div:hover {  animation-play-state: paused;
   }*/@keyframes scrollText {
-    from {    transform: translateX(0%);
-    }  to {
-      transform: translateX(-50%);  }
+    0% {    transform: translateX(50%);} 
+    100% { transform: translateX(-100%); }
   }
