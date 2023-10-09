@@ -1,9 +1,9 @@
 import styles from "./Services.module.css"
 import { ServiceCard  } from "./ServiceCard"
-import drone from "../../assets/imgs/services/drone.svg"
-import audio from "../../assets/imgs/services/audio.svg"
-import post from "../../assets/imgs/services/post.svg"
-import video from "../../assets/imgs/services/video.svg"
+import drone from "../../assets/imgs/servicesImgs/drone.svg"
+import audio from "../../assets/imgs/servicesImgs/audio.svg"
+import post from "../../assets/imgs/servicesImgs/post.svg"
+import video from "../../assets/imgs/servicesImgs/video.svg"
 
 
 export function Services(){

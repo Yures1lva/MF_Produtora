@@ -1,0 +1,14 @@
+
+
+.title-feedback{
+    margin: 50px 10px;
+    color: aqua;
+    padding: 10px 10px;
+    display: block;
+    height: 10px;
+}
+
+.imgCarroussel{
+    height: 500px;
+    width: 300px;
+}

@@ -1,7 +1,7 @@
 import { ComponetResult } from './Component.Result'
 import styles from './Results.module.css'
 import divider from '../../App.module.css'
-import {ComponentResultProps} from './Component.Result'
+//import {ComponentResultProps} from './Component.Result'
 import imgPerfil from "../../assets/imgs/clients/client01.png"
 import img01A from "../../assets/imgs/clients/01A.png"
 import img01B from "../../assets/imgs/clients/01B.png"
