@@ -1,8 +1,20 @@
 
+header{
+
+    background: var(--background);
+    position: fixed;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1000;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+  width: 60rem;
+
 }
 
 
