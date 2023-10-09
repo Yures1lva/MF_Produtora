@@ -38,15 +38,23 @@ export function Services(){
                     <p>Também temos</p>        
                 </div>
             </div>
-            <div className={styles.carroussel}>
-                <h2>Especialidade 1</h2>
-                <h2>Especialidade 1</h2>
-                <h2>Especialidade 1</h2>
-                <h2>Especialidade 1</h2>
-                <h2>Especialidade 1</h2>
-                <h2>Especialidade 1</h2>
+            
+            <div className={styles.mScroll}> 
+                <div className={styles.mScroll__title}> 
+                    <div> 
+                    <h2> 
+                        <a href="https://dribbble.com/JulianoF">Especialidade 1</a>
+                        <a href="https://dribbble.com/JulianoF">Especialidade 2</a>
+                        <a href="https://dribbble.com/JulianoF">Especialidade 3</a>
+                        <a href="https://dribbble.com/JulianoF">Especialidade 4</a>
+                        <a href="https://dribbble.com/JulianoF">Especialidade 5</a>
+                        <a href="https://dribbble.com/JulianoF">Especialidade 6</a>
+                        <a href="https://dribbble.com/JulianoF">Especialidade 7</a>    
+                    </h2> 
+                    
+                    </div> 
+                </div> 
             </div>
-        
         </>
     )
 }
