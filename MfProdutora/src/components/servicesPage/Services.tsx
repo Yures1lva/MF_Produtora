@@ -11,8 +11,8 @@ export function Services(){
         <>
             <div className={styles.background}>
                 <div className={styles.containerServices}>
-                    <p >Principais Serviços</p>
-                    <h3>Conheça Nosso principais<br/><span>Serviços</span> oferecidos</h3>
+                    <p id="services" >Principais Serviços</p>
+                    <h3 >Conheça Nosso principais<br/><span>Serviços</span> oferecidos</h3>
                     <div className={styles.cards}>
                         <ServiceCard
                         img={drone}

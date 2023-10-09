@@ -25,11 +25,11 @@ export function Results(){
         <>
         <div className={styles.background}>
             <div className='container'>
-               <p className='title-section'>Nossos Resultados</p>
+               <p id='results' className='title-section'>Nossos Resultados</p>
             </div>
         </div>
-        <div className={styles.containerResult}>
-            <h3 className='container'>Conheça o resultado de<br></br> nossos melhores <span>Projetos</span></h3>
+        <div   className={styles.containerResult}>
+            <h3 className='container'>Conheça o resultado de<br></br> nossos melhores <span>Projetos</span>.</h3>
 
             <ComponetResult
             title="Jr soluções em Construções"
