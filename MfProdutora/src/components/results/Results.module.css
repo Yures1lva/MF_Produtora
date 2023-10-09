@@ -38,18 +38,16 @@ h3{
    
    width: 217px; 
    height: 182px;
-   color: aliceblue;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
    border-radius: 5px;
-   border: 2px solid red;
+
+   /* background-image: url("../../assets/imgs/clients/client-01.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-x: center; */
 }
 
 .descript{
     border-radius: 5px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -68,7 +66,6 @@ h3{
 }
 
 .descript ul{
-    border: 2px solid red;
     margin: 0;
     padding: 0;
     display: flex;
@@ -97,19 +94,25 @@ h3{
 
 
 .introImages{
+
     display: flex;
     flex-direction: row;
     gap: 10px;
+    justify-content: space-between;
 }
 
 .introImages div{
-    flex: 1;
     height: 290px;
-
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 2px solid red;
+    z-index: 1;
+    transition: all ease .3s;
+}
+
+.introImages div:hover{
+    transform: scale(1.5);
+
 }
