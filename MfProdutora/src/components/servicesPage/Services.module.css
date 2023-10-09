@@ -40,6 +40,7 @@ h3 span{
     flex-direction: row;
     gap: 1%;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .card{
@@ -102,4 +103,18 @@ h3 span{
 
 .card:hover img{
     transform: scale(1.1);
+}
+
+.carroussel{
+    background: var(--primary);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carroussel h2{
+    color: var(--background);
+    padding: 0 20px;
 }
