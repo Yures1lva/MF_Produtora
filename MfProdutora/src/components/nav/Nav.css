@@ -1,19 +1,8 @@
 
-header{
 
-    background: var(--background);
-    width: 100%;
-    
-    scroll-behavior: smooth;
-}
 
-header > div{
-    max-width: 60rem;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-  .hamburguer{
+/*
+.hamburguer{
     padding: 0.6em 1.2em;
     font-size: 1em;
     font-weight: 500;
@@ -25,32 +14,30 @@ header > div{
     border: none;
     border-image: none;
     transform: translateY(-50%);
-    display: none;
-    
-    
-  }
+    display: none;    
+}
+*/
 
-  .navigation {
+.logo{
+    margin: 0;
+}
+
+.navigation {
+    min-height: 3.75rem; /*60px*/
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 0rem;
     background: var(--background);
     color: var(--primary);
-  }
+}
 
-
-
-  .navigatioMenu ul{
-
+.navigatioMenu ul{
     display: flex;
     align-items: center;
     padding: 0;
     margin: 0;
     right: 0;
-
 }
 
 .navigatioMenu ul li{
@@ -68,82 +55,54 @@ header > div{
     font-weight: 600;
 }
 
-@media (max-width: 768px){
+@media (max-width: 60em){/*990px*/
 
-    header > div{
-        padding: 0;
-    }
-    
+    .navigatioMenu ul li a{
+        font-size: 0.875rem
 
-    .logo{
-        margin: 0 10px;
-     }
-    
-
-    .navigation {
-        width: 100%;
-        flex-direction: column;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        padding: 0.5rem 0rem;
-        background: var(--background);
-        color: var(--primary);
-      }
-    
-
-    .hamburguer{
-        display: block;
-        margin-right: 30px ;
-        margin-top: 30px;
     }
 
-   .navigatioMenu{
-    border-top: 2px solid var(--primary);
-    width: 100%;
-    margin-top: 20px;
-
-   }
-    
     .navigatioMenu ul{
-        display: flex;
         flex-wrap: wrap;
-        align-items: flex-end;
-        width: 100%;
-        background-color: var(--background);
+        justify-content: flex-end;
     }
 
     .navigatioMenu ul li{
-        text-align: center;
-        margin: 15px 20px;
+  
+        margin: 10px ;
     }
-
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 31.25rem){/*500px*/
 
- 
+    .logo{
+        margin-top: 10px;
+    }
+
     .navigation {
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
         width: 100%;
-        flex-direction: column;
-        display: flex;
-        align-items: start;
-        padding: 0;
-      
-
-      }
-    
+    }
 
     .navigatioMenu ul{
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        align-items: end;
+        width: 100%;
+
     }
 
     .navigatioMenu ul li{
-        text-align: center;
-        margin: 15px 20px;
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .navigatioMenu ul li button{
+        padding: 0.6em 4.2em;
+        margin: 0; 
         width: 100%;
     }
+
 }

@@ -2,14 +2,15 @@
     background-image: url("../../assets/imgs/top-content.png");
     margin: 0;
     padding: 0;
-    background-size: cover;    
+    background-size: cover;
+    width: 100%;    
+    height: 600px;
 }
 
 .imgFundo div{
     
     align-items: center;
 
-    height: 40.5rem; /*648px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -19,6 +20,8 @@
 strong{
     color: #F6F6F6;
     text-align: center;
+    height: 100%;
+    margin: 30px 0;
 
     /* H1R */
     font-family: "Play", Helvetica, sans-serif;
@@ -27,6 +30,11 @@ strong{
     font-weight: 400;
     line-height: 102.523%; /* 53.312px */
     letter-spacing: -0.065rem ; /*-1.04px;*/
+}
+
+span{
+    height: 100%;
+    margin: 30px 0;
 }
 
 p{
@@ -39,3 +47,73 @@ p{
     letter-spacing: 1.43px;
 }
 
+button{
+    height: 100%;
+    margin: 30px 0;
+}
+
+
+@media (max-width: 60em){/*990px*/
+
+    .imgFundo {
+        width: 100%;    
+        height: 100%;
+    }
+
+    p{
+        max-width: 32.688rem; /*523px;*/
+        margin: 0.825rem 0; 
+    
+        font-size: 1rem;
+        font-style: normal;
+        line-height: 108.523%; /* 23.875px */
+        letter-spacing: 1.43px;
+    }
+    
+  
+}
+
+@media (max-width: 31.25rem){/*500px*/
+
+    .imgFundo {
+        background-image: url("../../assets/imgs/top-content-mobile.png");
+            
+        }
+    .imgFundo div{    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: end;
+        height: 600px;
+    }
+
+    strong{
+        height: 20px;
+        margin: 10px 0;
+
+        font-size: 2.25rem;/*52px*/
+    }
+    
+    span{
+        height: 100px;
+        margin: 20% 0;
+    }
+    
+    p{
+        margin: 1.25rem 0; 
+    }
+    
+    .imgFundo div button{
+        width: 100%;
+        margin-top: 20%;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1540px){/*500px*/
+
+    .imgFundo {
+
+        height: 800px;
+    }
+}

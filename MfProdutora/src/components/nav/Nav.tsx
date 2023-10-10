@@ -4,14 +4,9 @@ import "./Nav.css"
 
 
 export function Nav(){
-
-   
-
     return (
         <>
-            <header>
-                <div >
-                    <nav className="navigation">
+                    <nav className="navigation container">
                         <a className="logo" href="/"><img src="" alt="logo" /></a>
                         
                         <div className="navigatioMenu">
@@ -29,8 +24,6 @@ export function Nav(){
                             </ul>
                         </div>
                     </nav>
-                </div>
-            </header>
         </>
     )
 }

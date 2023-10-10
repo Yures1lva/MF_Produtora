@@ -91,7 +91,7 @@ button:focus-visible {
 .container{
   max-width: 60rem;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 ;
 }
 
 .title-section{
@@ -120,3 +120,11 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }*/
+
+@media (max-width: 60em){/*990px*/
+
+  .container{
+    width: 90%;
+  }
+
+}

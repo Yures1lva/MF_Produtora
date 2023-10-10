@@ -20,7 +20,6 @@
     margin: 0 auto;
     padding: 0;
 
-
 }
 
 h3{
@@ -175,9 +174,16 @@ h3 span{
     
     .card{
         width: 100%;
-        max-width: 500px;
+        max-width: 300px;
         margin: 0.313rem /*5px*/ 1.25rem;
     
     }
     
+    .containerServices{
+        text-align: center;
+        max-width: auto;
+        margin: 0 20px;
+        padding: 0;
+    
+    }
 }
