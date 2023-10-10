@@ -2,9 +2,9 @@
 
 
 .imgCarroussel{
-    height: 500px;
-    width: 300px;
-    margin-top: 50px;
+    height: 31.25rem /*500px*/;
+    width: 18.75rem /*300px*/;
+    margin-top: 3.125rem /*50px*/;
     border-radius: 5px;
 }
 

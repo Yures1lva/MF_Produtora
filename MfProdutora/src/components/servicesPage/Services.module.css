@@ -5,9 +5,9 @@
     background-repeat: no-repeat;
     background-position-x: center;
     align-items: flex-end;
-    margin: 150px 0 0 0 ;
+    margin: 9.375rem /*150px*/ 0 0 0 ;
     padding: 0;
-    padding: 50px 0;
+    padding: 3.125rem /*50px*/ 0;
 }
 
 .background p{
@@ -16,7 +16,7 @@
 
 .containerServices{
     text-align: center;
-    width: 840px;
+    width: 52.5rem /*840px*/;
     max-width: 60rem;
     margin: 0 auto;
     padding: 0;
@@ -28,7 +28,7 @@ h3{
     text-align: left;
     display: block;
     /* height: 1000px; */
-    margin-top: 50px;
+    margin-top: 3.125rem /*50px;*/
 }
 
 h3 span{
@@ -38,30 +38,33 @@ h3 span{
 .cards{
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    gap: 1.25rem /*20px*/;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem /*40px*/;
+    justify-content: center;
+
 }
 
 .card{
-    border-radius: 5px;
+    width: 35%;
+    border-radius: 0.313rem /*5px*/;
     background: var(--background);
-    width: 48%;
     transition: all ease .3s;
     border: 2px solid transparent;
-    margin: 5px 0;
+    margin: 0.313rem /*5px*/ 0;
 
 }
 
 .card img{
-    margin: 10px; 
+    margin: 0.625rem/*10px*/; 
     transition: all ease .3s;
+    height: 3.75rem /*60px*/;
 }
 
 .card h4{
     font-family: 'Readex Pro';
     color: var(--support-01);
-    font-size: 22px;
+    font-size: 1.125rem/*18px*/;
     font-style: normal;
     font-weight: 400;
     line-height: 108.523%; /* 23.875px */
@@ -83,13 +86,13 @@ h3 span{
     text-align: left;
     color: var(--support-02, #A0A0A0);
     font-family: 'Readex Pro';
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 102.523%; /* 16.404px */
-    letter-spacing: 2.48px; 
+    letter-spacing: 1.48px; 
     margin: 0;
-    padding: 10px;    
+    padding: 0.625rem/*10px*/;    
 }
 
 .card:hover {
@@ -106,7 +109,7 @@ h3 span{
 }
 
 
-
+/* especialiddes scrolladas  */
 
 .mScroll {  
     display: flex;
@@ -144,8 +147,9 @@ h3 span{
 .mScroll__title a {
         text-decoration: none;     
     color: var(--background);
-    font-size: 25px;
-    margin:  0 40px;
+    font-size: 20px;
+    margin:  0 2rem /*40px*/;
+    letter-spacing: normal;
         
       }    
       
@@ -158,3 +162,23 @@ h3 span{
     0% {    transform: translateX(50%);} 
     100% { transform: translateX(-100%); }
   }
+
+  @media (max-width: 768px){
+
+    
+    .cards{
+ 
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    
+    .card{
+        width: 100%;
+        max-width: 500px;
+        margin: 0.313rem /*5px*/ 1.25rem;
+    
+    }
+    
+}

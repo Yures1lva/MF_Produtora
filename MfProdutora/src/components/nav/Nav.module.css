@@ -28,7 +28,7 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 15px;
+    margin-left: 0.938rem /*15px*/;
     transition: all ease .2s;
 }
 
@@ -41,7 +41,7 @@ ul li button:hover{
     font-weight: 600;
 }
 
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 
     nav{
     
@@ -64,4 +64,4 @@ ul li button:hover{
     
     
 
-}
+}*/

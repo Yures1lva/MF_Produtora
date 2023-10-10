@@ -1,6 +1,5 @@
 import { ComponetResult } from './Component.Result'
 import styles from './Results.module.css'
-import divider from '../../App.module.css'
 //import {ComponentResultProps} from './Component.Result'
 import imgPerfil from "../../assets/imgs/clients/client01.png"
 import img01A from "../../assets/imgs/clients/01A.png"
@@ -41,7 +40,7 @@ export function Results(){
             img1={img01A}
             img2={img01B}
             />
-            <div className={divider.divider}></div>
+
             <ComponetResult
             title="Jr soluções em Construções"
             key={1}
