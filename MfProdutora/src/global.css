@@ -91,7 +91,7 @@ button:focus-visible {
 .container{
   max-width: 60rem;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 20px;
 }
 
 .title-section{
