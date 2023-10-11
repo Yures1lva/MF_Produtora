@@ -70,10 +70,6 @@ export function Carroussel(){
               
               </Swiper>
           </div>    
-    <br />
-    <br />
-    <br />
-    <br />
         </>
     )
 }
