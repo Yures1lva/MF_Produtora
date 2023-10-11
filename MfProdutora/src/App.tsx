@@ -5,6 +5,7 @@ import {Results} from './components/results/Results'
 import {Services} from './components/servicesPage/Services'
 import { Feedback } from "./components/feedback/Feedback"
 import { Team } from "./components/team/Team"
+import { Contact } from "./components/contact/Contact"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Services/>
       <Feedback/>
       <Team/>
+      <Contact/>
 
     </>
   )
