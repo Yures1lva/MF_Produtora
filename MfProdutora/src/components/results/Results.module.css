@@ -101,14 +101,14 @@ h3{
 
     display: flex;
     flex-direction: row;
-    gap: 10% /*10px*/;
+    gap: 2% /*10px*/;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.introImages div{
-    width: 30% /*290px*/;
-    
+.introImages img{
+    width: 48% /*290px*/;
+
     margin-top: 3% /*18px*/;
     display: flex;
     justify-content: center;
@@ -118,47 +118,13 @@ h3{
     transition: all ease .3s;
 }
 
-.introImages div:hover{
+.introImages img:hover{
     transform: scale(1.1);
+    z-index: 1000;
 
 }
 /*preciso melhorar essa bagunça*/
-@media (max-width: 768px){
 
-
-    .TopContent{
-        margin-top:3.125rem /*50px*/;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 0.525rem /*20px*/;
-        overflow: hidden;
-        
-    }
-
-    .introImages div{
-        width: 50% /*290px*/;
-        
-        margin-top: 3% /*18px*/;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        z-index: 1;
-        transition: all ease .3s;
-    }
-
-    .descript h4{
-        margin: 0 0 0.625rem /*10px*/ 0;
-        padding: 0;
-    
-        font-size: 1rem /*22px*/;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 108.523%; /* 23.875px */
-        letter-spacing: 1.43px;
-    }
-}
 
 
 
@@ -186,8 +152,25 @@ h3{
         padding-top: 180px;
     }
 
+
+
 }
 
+@media (max-width: 768px){
+
+
+  /*  .TopContent{
+        margin-top:3.125rem ;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.525rem ;
+        
+    }*/
+
+
+
+}
 
 @media (max-width: 31.25rem){/*500px*/
     .background{
@@ -198,6 +181,53 @@ h3{
         padding-top: 130px;
     }
 
+    .imagePerfil{
+   
+        height: 10vh /*217px*/; 
+        width: 12vh;
+        border-radius: 5px;
+     
+        /* background-image: url("../../assets/imgs/clients/client-01.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center; */
+     }
+
+
+     .descript ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+     .descript ul li{
+
+        margin-right: 20px;
+        
+    }
+
+    .introImages img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+        
+ 
+}
+
+
+@media (max-width: 400px){/*500px*/
+    .background{
+        height: 155px;
+    }
+    
+    .background div p{
+        padding-top: 90px;
+    }
+   
+ 
 }
 
 

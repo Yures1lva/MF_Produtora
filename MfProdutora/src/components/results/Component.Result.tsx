@@ -26,8 +26,8 @@ export function ComponetResult({title, local, type, date, imgPerfil, img1, img2}
                     </div>
                 </div>
                 <div className={styles.introImages}>
-                    <div><img src={img1} alt="" /></div>
-                    <div><img src={img2} alt="" /></div> 
+                    <img src={img1} alt="" />
+                    <img src={img2} alt="" /> 
                 </div>
             </div>
         </>
