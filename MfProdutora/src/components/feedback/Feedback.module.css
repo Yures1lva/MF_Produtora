@@ -4,7 +4,21 @@
 .imgCarroussel{
     height: 31.25rem /*500px*/;
     width: 18.75rem /*300px*/;
-    margin-top: 3.125rem /*50px*/;
-    border-radius: 5px;
+    display: block;
+    margin: 20px auto; 
 }
 
+.arrow {
+    position: absolute;
+    top: 45%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .arrowLeft {
+    left: 0;
+  }
+  .arrowRight {
+    right: 0;
+  }

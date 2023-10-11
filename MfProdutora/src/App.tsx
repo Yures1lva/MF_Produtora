@@ -13,7 +13,7 @@ function App() {
       <TopContent/>      
       <Results/>
       <Services/>
-      {/*<Feedback/>*/}
+      <Feedback/>
     </>
   )
 }

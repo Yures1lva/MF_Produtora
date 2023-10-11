@@ -1,4 +1,4 @@
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay,} from 'swiper/modules';
 import print01 from "../../assets/imgs/feedback/print01.png"
 import print02 from "../../assets/imgs/feedback/print02.png"
 import print03 from "../../assets/imgs/feedback/print03.png"
@@ -13,6 +13,7 @@ import 'swiper/css/navigation';
 import 'swiper/less/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
 import { useState, useEffect } from 'react';
 
 const slides = [print01,print02,print03,print01,print02,print03]
@@ -26,7 +27,7 @@ export function Carroussel(){
         function handleRezie(){
             if(window.innerWidth < 620){
                 setSlidePerView(1)
-            }else if(window.innerWidth < 920){
+            }else if(window.innerWidth < 990){
                 setSlidePerView(2)
             }else{
                 setSlidePerView(3)
@@ -41,20 +42,23 @@ export function Carroussel(){
 
     return(
         <>
-          <div className='container' id="feedback">
+          <div className='container container-box' id="feedback">
               <Swiper
-                // install Swiper modules
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                spaceBetween={50}
-                slidesPerView={slidesPerView}
-                autoplay={{
-                    delay: 1500,
-                    disableOnInteraction: false,
-                }}
-                pagination={{
-                    clickable: true,
-                }}
-                navigation={true}
+                    className='mySwiper'
+                    centeredSlides={true}
+                    modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                    spaceBetween={50}
+                    slidesPerView={slidesPerView}
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    navigation={true}
+                    
+                    
               >
               {slides.map((item) => (
                 <SwiperSlide>
@@ -63,6 +67,7 @@ export function Carroussel(){
                     </img>
                 </SwiperSlide>
               ))}
+              
               </Swiper>
           </div>    
     <br />
