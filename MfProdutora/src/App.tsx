@@ -12,8 +12,8 @@ function App() {
       <Nav/>
       <TopContent/>      
       <Results/>
-      {/*<<Services/>
-      <Feedback/>*/}
+      <Services/>
+      {/*<Feedback/>*/}
     </>
   )
 }
