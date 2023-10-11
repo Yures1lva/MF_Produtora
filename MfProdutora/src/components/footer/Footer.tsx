@@ -33,7 +33,11 @@ export function Footer(){
                         </li>
                     </ul>
                 </footer>
+                
             </div>
+            <div className={style.signature}>
+                    <p>desenvolvido por <a><span>ydev</span></a></p>
+                </div>
 
        </>
     )

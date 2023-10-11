@@ -10,9 +10,12 @@
     padding: 3.125rem /*50px*/ 0;
 }
 
-.background p{
+.containerServices p{
     margin: 0 auto;
+    font-weight: 400;
+    color: var(--support-01);
 }
+
 
 .containerServices{
     text-align: center;
@@ -22,14 +25,14 @@
 
 }
 
-h3{
+.containerServices h3{
     text-align: left;
     display: block;
     /* height: 1000px; */
     margin-top: 3.125rem /*50px;*/
 }
 
-h3 span{
+.containerServices h3 span{
     color: var(--primary);
 }
 
@@ -80,11 +83,14 @@ h3 span{
     transition: all ease .3s;
 }
 
+
+
 .card p{
     text-align: left;
     color: var(--support-02, #A0A0A0);
     font-size: 14px;
     line-height: 124.523%; /* 21.524px */
+    font-weight: 200;
 
     margin: 0;
     padding: 0.625rem/*10px*/;    
