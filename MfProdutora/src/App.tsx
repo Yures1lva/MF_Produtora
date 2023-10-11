@@ -6,6 +6,7 @@ import {Services} from './components/servicesPage/Services'
 import { Feedback } from "./components/feedback/Feedback"
 import { Team } from "./components/team/Team"
 import { Contact } from "./components/contact/Contact"
+import {Footer}  from "./components/footer/Footer"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Feedback/>
       <Team/>
       <Contact/>
+      <Footer/>
 
     </>
   )
