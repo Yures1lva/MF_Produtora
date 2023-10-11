@@ -109,6 +109,15 @@ button:focus-visible {
   padding: 0 1rem;
 }
 
+p{
+  font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 200;
+    line-height: 134.523%; /* 21.524px */
+    letter-spacing: 2px; 
+    color: var(--support-01);
+}
+
 /*@media (prefers-color-scheme: light) {
   :root {
     color: #213547;

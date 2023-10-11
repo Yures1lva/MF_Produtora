@@ -83,12 +83,9 @@ h3 span{
 .card p{
     text-align: left;
     color: var(--support-02, #A0A0A0);
-    font-family: 'Readex Pro';
     font-size: 14px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 102.523%; /* 16.404px */
-    letter-spacing: 1.48px; 
+    line-height: 124.523%; /* 21.524px */
+
     margin: 0;
     padding: 0.625rem/*10px*/;    
 }
