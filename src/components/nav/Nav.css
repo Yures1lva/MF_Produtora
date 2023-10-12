@@ -51,8 +51,8 @@
 }
 
 
-.navigatioMenu ul li button:hover{
-    font-weight: 600;
+.navigatioMenu ul li:last-child:hover{
+    transform: scale(1);
 }
 
 @media (max-width: 60em){/*990px*/

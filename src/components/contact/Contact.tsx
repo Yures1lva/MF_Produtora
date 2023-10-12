@@ -15,7 +15,7 @@ export function Contact(){
             </div>
 
             <div className={style.descript}>
-                <p className="container">Somos A MF produtora queremos trazer uma melhor qualidade de produção de conteúdo, realizamos também campanha política e produções de eventos. Entre em contato e peça seu orçamento</p>    
+                <p className="container">Somos A MF produtora queremos trazer a melhor qualidade de produção de conteúdo em audiovisual, realizamos também campanha política e produções de eventos. Entre em contato e peça seu orçamento.</p>    
                 <button>Pedir orçamento</button>
                 <p className="container">ou entre em contato em uma de nossas redes sociais.</p>
             </div> 
