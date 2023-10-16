@@ -44,8 +44,11 @@ export function Carroussel(){
         <>
           <div className='container container-box' id="feedback">
               <Swiper
+                    style={{
+                        '--swiper-navigation-color': 'var(--primary)',
+                        '--swiper-pagination-color': 'var(--primary)',
+                      }}
                     className='mySwiper'
-                    centeredSlides={true}
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                     spaceBetween={50}
                     slidesPerView={slidesPerView}

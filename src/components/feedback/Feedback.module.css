@@ -22,3 +22,7 @@
   .arrowRight {
     right: 0;
   }
+
+  .swiper-pagination-bullet-active {
+    background-color: #000;
+  }
