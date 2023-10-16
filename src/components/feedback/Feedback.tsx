@@ -5,7 +5,7 @@ export function Feedback(){
     return(
         <>
             <div> 
-            <p className='container title-section title-feedback'>Feedback dos clientes</p>
+            <p className='container title-section'>Feedback dos clientes</p>
             </div>
             <Carroussel />
         </>

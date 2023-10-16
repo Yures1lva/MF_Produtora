@@ -34,7 +34,7 @@ export function Services(){
         <>
             <div className={styles.background}>
                 <div className={styles.containerServices}>
-                    <p id="services" >Principais Serviços</p>
+                    <p id="services" className="title-section" >Principais Serviços</p>
                     <h3 >Conheça Nosso principais<br/><span>Serviços</span> oferecidos</h3>
                     <div className={styles.cards}>
                         
