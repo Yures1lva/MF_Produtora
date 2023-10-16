@@ -1,7 +1,9 @@
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay,} from 'swiper/modules';
-import print01 from "../../assets/imgs/feedback/print01.png"
-import print02 from "../../assets/imgs/feedback/print02.png"
-import print03 from "../../assets/imgs/feedback/print03.png"
+import print01 from "../../assets/imgs/feedback/feedback1.png"
+import print02 from "../../assets/imgs/feedback/feedback2.png"
+import print03 from "../../assets/imgs/feedback/feedback3.png"
+import print04 from "../../assets/imgs/feedback/feedback4.png"
+import print05 from "../../assets/imgs/feedback/feedback5.png"
 
 
 import style from "./Feedback.module.css"
@@ -16,7 +18,7 @@ import 'swiper/css/scrollbar';
 
 import { useState, useEffect } from 'react';
 
-const slides = [print01,print02,print03,print01,print02,print03]
+const slides = [print01,print02,print03,print04,print05]
 
 
 
