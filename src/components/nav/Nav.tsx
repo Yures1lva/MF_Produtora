@@ -1,4 +1,5 @@
 import "./Nav.css"
+import logo from '../../assets/imgs/logo.png'
 
 
 
@@ -7,7 +8,7 @@ export function Nav(){
     return (
         <>
                     <nav className="navigation container">
-                        <a className="logo" href="/"><img src="" alt="logo" /></a>
+                        <a className="logo" href="/"><img src={logo} alt="logo" /></a>
                         
                         <div className="navigatioMenu">
                         {/*<button className="hamburguer" onClick={changeStyle}>

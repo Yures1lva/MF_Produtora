@@ -1,11 +1,12 @@
 import styles from "./TopContent.module.css"
+import logo from '../../assets/imgs/logo2.png'
 
 export function TopContent(){
     return(
         <>
             <div className={styles.imgFundo}>
                 <div className="container">
-                    <strong>MF  Produtora</strong>
+                    <img src={logo} alt="Logo da Maycon Filmes Produtora" />
                 
                    
                     <span>

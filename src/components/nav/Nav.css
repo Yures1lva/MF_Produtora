@@ -22,6 +22,10 @@
     margin: 0;
 }
 
+.logo img {
+    width: 100px;
+}
+
 .navigation {
     min-height: 3.75rem; /*60px*/
     width: 100%;
@@ -80,6 +84,10 @@
         margin-top: 10px;
     }
 
+    .logo img {
+        width: 100%;
+    }
+
     .navigation {
         align-items: flex-start;
         flex-direction: row;
@@ -105,4 +113,14 @@
         width: 100%;
     }
 
+}
+
+
+@media (max-width: 300px){/*500px*/
+
+
+
+    .logo img {
+        width: 50px;
+    }
 }

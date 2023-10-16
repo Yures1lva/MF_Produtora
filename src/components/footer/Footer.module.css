@@ -75,7 +75,7 @@
     text-align: center;
     margin: 0 auto;
     padding: 0;
-
+    font-size: 12px;
 
     color: var(--support-02);
 }
@@ -83,14 +83,16 @@
 .signature span{
     font-weight: 400;
     color: var(--support-02);
+    font-size: 12px;
     cursor: pointer;
     transition: all ease .2s;
 }
 
+
+
 .signature span:hover{
     transform: scale(1.1);
     color: var(--primary);
-
 }
 
     
