@@ -74,15 +74,18 @@ button {
   font-family: inherit;
   background-color: transparent;
   cursor: pointer;
-  transition: all 0.25s;
-
-  border: 2px solid transparent;
-  border-image: linear-gradient(to left,var(--primary),var(--secondary)) 10;
+  transition: all ease-in-out ;
+  border-radius: 6px;
+  border: 2px solid var(--primary);
 
 }
 button:hover {
-  background: linear-gradient(to left,var(--primary),var(--secondary));
+  background: var(--primary);
+  border: 2px solid var(--primary);
   color: var(--background);
+  transform: scale(1.01);
+
+
 }
 button:focus,
 button:focus-visible {

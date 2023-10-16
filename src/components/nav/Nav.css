@@ -50,6 +50,10 @@
     transition: all ease .2s;
 }
 
+.navigatioMenu ul li button:hover{
+    
+}
+
 .navigatioMenu ul li:hover{
     transform: scale(1.1);
 }
