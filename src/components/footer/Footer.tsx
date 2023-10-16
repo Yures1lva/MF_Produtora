@@ -1,4 +1,5 @@
 import style from "./Footer.module.css"
+import logo from '../../assets/imgs/logo2.png'
 
 export function Footer(){
     return(
@@ -9,7 +10,7 @@ export function Footer(){
                     <ul className={style.menu}>
                         <li className={style.logo}>
                             <a href="/">
-                                <img src="" alt="logo" />
+                                <img src={logo} alt="logo" />
                             </a>
                         </li>
                         
