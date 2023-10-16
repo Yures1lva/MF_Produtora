@@ -1,7 +1,7 @@
 :root {
 
-  --primary: #1758FF;
-  --secondary: #17F1FF;
+  --primary: #FFC804 /*#1758FF*/;
+  --secondary:  #B26E00/*#17F1FF*/;
   --support-01: #FFFFFF;
   --support-02: #A0A0A0;
   --support-03: #191D29;

@@ -11,6 +11,7 @@ export function ServiceCard({img, type, content}: CardType){
         <>
             <article className={styles.card}>
                         <img src={img} alt="ícone do serviços" />
+                        
                         <h4>{type}</h4>
                         <div></div>
                         <p>{content}</p>

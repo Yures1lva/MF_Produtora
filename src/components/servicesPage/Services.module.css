@@ -154,9 +154,8 @@
         
       }    
       
-.mScroll__title  a:hover {
-        -webkit-text-stroke: 1px white;     
-        color: white;
+.mScroll__title  a:hover {   
+        color: var(--background);
       }  
   /*div:hover {  animation-play-state: paused;
   }*/@keyframes scrollText {
