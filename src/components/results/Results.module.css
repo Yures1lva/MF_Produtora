@@ -122,7 +122,6 @@ h3{
 
 .introImages img:hover{
     transform: scale(1.1);
-    z-index: 1000;
 
 }
 /*preciso melhorar essa bagunça*/
