@@ -16,7 +16,7 @@ import 'swiper/less/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, CSSProperties } from 'react';
 
 const slides = [print01,print02,print03,print04,print05]
 
@@ -49,7 +49,7 @@ export function Carroussel(){
                     style={{
                         '--swiper-navigation-color': 'var(--primary)',
                         '--swiper-pagination-color': 'var(--primary)',
-                      }}
+                      } as CSSProperties}
                     className='mySwiper'
                     modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                     spaceBetween={50}
