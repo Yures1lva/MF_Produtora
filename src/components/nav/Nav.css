@@ -1,22 +1,68 @@
 
+.navigation{
+    position: fixed;
+    width: 100%;
+    background: var(--background);
+    z-index: 1000;
 
+}
 
-/*
-.hamburguer{
+.navigation nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.items{
+    margin: 5px;
+}
+
+.buttonNav{
+    margin: 5px 0;
     padding: 0.6em 1.2em;
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color:var(--background);
+    background-color: transparent;
     cursor: pointer;
-    transition: all 0.25s;
-    color: var(--primary);
-    border: none;
-    border-image: none;
-    transform: translateY(-50%);
-    display: none;    
+    transition: all ease-in-out ;
+    border-radius: 6px;
+    border: 2px solid var(--primary);
 }
-*/
+
+
+  .buttonNav:hover{
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    color: var(--background);
+    transform: scale(1.01);
+  
+  
+  }
+
+
+
+.controlNav{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    padding: 0 5px;
+    font-size: 18px;
+}
 
 .logo{
     margin: 0;
@@ -26,105 +72,71 @@
     width: 100px;
 }
 
-.navigation {
-    min-height: 3.75rem; /*60px*/
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--background);
-    color: var(--primary);
-}
-
-.navigatioMenu ul{
-    display: flex;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    right: 0;
-}
-
-.navigatioMenu ul li{
-    list-style: none;
-    margin-left: 0.938rem /*15px*/;
-    transition: all ease .2s;
-}
-
-.navigatioMenu ul li button:hover{
-    
-}
-
-.navigatioMenu ul li:hover{
-    transform: scale(1.1);
-}
 
 
-.navigatioMenu ul li:last-child:hover{
-    transform: scale(1);
-}
-
-@media (max-width: 60em){/*990px*/
-
-    .navigatioMenu ul li a{
-        font-size: 0.875rem
-
-    }
-
-    .navigatioMenu ul{
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-
-    .navigatioMenu ul li{
-  
-        margin: 10px ;
-    }
-
-}
-
-@media (max-width: 31.25rem){/*500px*/
+@media (max-width: 860px){
 
     .logo{
+        position: absolute;
+        left: 0;
+        top: 0;
         margin-top: 10px;
     }
-
-    .logo img {
-        width: 100%;
-    }
-
-    .navigation {
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .navigatioMenu ul{
-        flex-direction: column;
-        align-items: end;
-        width: 100%;
-
-    }
-
-    .navigatioMenu ul li{
-        font-size: 1rem;
-        margin: 10px 0;
-    }
-
-    .navigatioMenu ul li button{
-        padding: 0.6em 4.2em;
-        margin: 0; 
-        width: 100%;
-    }
-
-}
-
-
-@media (max-width: 300px){/*500px*/
-
 
 
     .logo img {
         width: 50px;
     }
+
+    .navigation nav {
+        flex-direction: column;
+        min-height: 30px;
+    }
+
+    .list{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .items:nth-child(1){
+        margin-top: 30px;
+    }
+
+
+    .items{
+        width: 100%;
+        text-align: center;
+        margin-right: 0px;
+        padding: 10px 0;
+
+    }
+
+    .buttonNav{
+       padding: 10px 40%;
+    }
+
+    .controlNav{
+        display: block;
+        visibility: visible;
+        height: 30px;
+    }
+    
+}
+
+
+@media (max-width: 650px) {
+    .buttonNav{
+        padding: 10px 30%;
+     }
+ 
+    
+}
+
+@media (max-width: 320px) {
+    .buttonNav{
+        padding: 10px 20%;
+     }
+ 
+    
 }
