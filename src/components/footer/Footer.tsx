@@ -17,9 +17,11 @@ export function Footer(){
                         <li>
                             <ul className={style.about}>
                                 <li><h3>Sobre</h3></li>
+                                <li><a>home</a></li>
                                 <li><a>Política de privacidade</a></li>
                                 <li><a>Termos de uso</a></li>
                                 <li><a>Sobre este site</a></li>
+                                
                             </ul>
                         </li>
                         

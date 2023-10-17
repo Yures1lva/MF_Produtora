@@ -1,7 +1,7 @@
 import style from "./Contact.module.css"
-import insta from "../../assets/imgs/contact/insta.svg"
-import zap from "../../assets/imgs/contact/zap.svg"
-import yt from "../../assets/imgs/contact/yt.svg"
+import insta from "../../assets/imgs/contact/instagram.svg"
+import zap from "../../assets/imgs/contact/whatsapp.svg"
+import yt from "../../assets/imgs/contact/youtube.svg"
 import email from "../../assets/imgs/contact/email.svg"
 
 

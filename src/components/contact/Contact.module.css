@@ -29,10 +29,9 @@
 
 .links li{
     list-style: none;
+    padding: 0;
     margin: 0 5px;
     transition: all ease .2s;
-    padding: 0;
-    margin: 0;
     text-align: center;
 }
 
@@ -42,16 +41,16 @@
 
 
 .links li a img{
-    width: 70%;
+    width: 90%;
 }
 
 @media (max-width: 500px){
   
     .links{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .links li{
-        margin:0  3px;
+        margin:0  0px;
     }
     
 
