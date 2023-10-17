@@ -1,6 +1,6 @@
 import "./Nav.css"
 import logo from '../../assets/imgs/logo.png'
-import React, {useState, useEffect} from 'react'
+import  {useState, useEffect} from 'react'
 
 
 

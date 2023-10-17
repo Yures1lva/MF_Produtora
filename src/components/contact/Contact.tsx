@@ -22,10 +22,10 @@ export function Contact(){
 
             <div className="container">
                 <ul className={style.links}>
-                    <li><a href=""><img src={insta} alt="" /></a></li>
-                    <li><a href=""><img src={yt} alt="" /></a></li>
-                    <li><a href=""><img src={email} alt="" /></a></li>
-                    <li><a href=""><img src={zap} alt="" /></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/mfprodutora_/"><img src={insta} alt="" /></a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/@mayconfilmes30" ><img src={yt} alt="" /></a></li>
+                    <li><a target="_blank" href="mailto:mfprodutoraltda@gmail.com"><img src={email} alt="" /></a></li>
+                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5594991621273&text="><img src={zap} alt="" /></a></li>
                 </ul>
             </div>
         </>
