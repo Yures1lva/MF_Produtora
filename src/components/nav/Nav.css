@@ -26,7 +26,13 @@
 }
 
 .items{
-    margin: 5px;
+    margin:5px 8px ;
+    transition: all ease-in-out .2s;
+
+}
+
+.items:hover{
+    transform: scale(1.1);
 }
 
 .buttonNav{
@@ -70,6 +76,11 @@
 
 .logo img {
     width: 100px;
+    transition: all ease-in-out .2s;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
 }
 
 

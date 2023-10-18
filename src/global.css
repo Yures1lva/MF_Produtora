@@ -29,15 +29,16 @@ a {
   text-align: center;
   /* P */
  
-  font-size: 1rem;
+  font-size: 0.625;/* 12px */
   font-style: normal;
   font-weight: 500;
   line-height: 102.523%; /* 16.404px */
-  letter-spacing: 0.155rem /*2.48px*/; 
+  letter-spacing: 0.055rem /*2.48px*/; 
   transition: all ease .2s;
 }
 a:hover {
   color: var(--primary);
+
 
 }
 
@@ -116,8 +117,8 @@ p{
   font-family: 'Readex Pro';
     font-style: normal;
     font-weight: 200;
-    line-height: 134.523%; /* 21.524px */
-    letter-spacing: 2px; 
+    line-height: 124.523%; /* 21.524px */
+    letter-spacing: 0.055rem /*2.48px*/; 
     color: var(--support-01);
 }
 

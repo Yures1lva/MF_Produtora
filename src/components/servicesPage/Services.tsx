@@ -10,22 +10,22 @@ const destaqueEspecialidades = [
     {
         img: drone,
         type: "Filmes e Fotos Aéreas",
-        content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like"        
+        content: "Filmes e fotos aéreas capturadas com dronês, oferece uma perspectiva única e cativante, além de proporcionar um toque cinematográfico, os filmes e fotos aéreas com drones oferecem um olhar inovador e moderno para promover produtos e serviços."        
     },
     {
         img: audio,
         type: "Produções e Audiovisual",
-        content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like"        
+        content: "Produções e Audiovisual são áreas fundamentais para marcas que buscam se destacar no mercado, as produções e o audiovisual oferecem uma maneira eficaz de apresentar produtos e serviços de forma atraente e convincente"        
     },
     {
         img: video,
         type: "Comerciais e Inspeções",
-        content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like"        
+        content: "É possível fortalecer sua presença no mercado. Ao integrar abordagens inovadoras e tecnologias avançadas, sua marca pode otimizar a eficácia de suas campanhas publicitárias e assegurar a integridade e segurança de suas operações comerciais"        
     },
     {
         img: post,
         type: "Social Media e mais",
-        content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like"        
+        content: "As redes sociais proporcionam uma plataforma dinâmica e interativa para você se conectar com seu público-alvo de maneira significativa e autêntica, isso é possível com mídias sociais adaptadas para seu público alvo."        
     }
 ]
 
@@ -58,13 +58,15 @@ export function Services(){
                     <h2> 
                     <a href="https://dribbble.com/JulianoF">  </a>
 
-                        <a href="https://dribbble.com/JulianoF">Especialidade 1</a>
-                        <a href="https://dribbble.com/JulianoF">Especialidade 2</a>
-                        <a href="https://dribbble.com/JulianoF">Especialidade 3</a>
-                        <a href="https://dribbble.com/JulianoF">Especialidade 4</a>
-                        <a href="https://dribbble.com/JulianoF">Especialidade 5</a>
-                        <a href="https://dribbble.com/JulianoF">Especialidade 6</a>
-                        <a href="https://dribbble.com/JulianoF">Especialidade 7</a>    
+                        <a href="https://dribbble.com/JulianoF">Filmes Publicitários</a>
+                        <a href="https://dribbble.com/JulianoF">Cobertura de Eventos</a>
+                        <a href="https://dribbble.com/JulianoF">Vídeos Educativos</a>
+                        <a href="https://dribbble.com/JulianoF">Redes Sociais</a>
+                        <a href="https://dribbble.com/JulianoF">Design de Interfaces</a>
+                        <a href="https://dribbble.com/JulianoF">Vídeos Corporativos</a>
+                        <a href="https://dribbble.com/JulianoF">Book pessoal</a>
+                        <a href="https://dribbble.com/JulianoF">Pacotes em grupo</a>   
+                        <a href="https://dribbble.com/JulianoF">Design de Artes</a>    
                     </h2> 
                     
                     </div> 
