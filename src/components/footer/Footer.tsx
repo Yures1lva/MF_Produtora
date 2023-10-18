@@ -18,9 +18,12 @@ export function Footer(){
                             <ul className={style.about}>
                                 <li><h3>Sobre</h3></li>
                                 <li><a>home</a></li>
-                                <li><a>Política de privacidade</a></li>
-                                <li><a>Termos de uso</a></li>
-                                <li><a>Sobre este site</a></li>
+                                <li><a>Resultados</a></li>
+                                <li><a>Serviços</a></li>
+                                <li><a>Feedback</a></li>
+                                <li><a>Equipe</a></li>
+                                <li><a>Contato</a></li>
+
                                 
                             </ul>
                         </li>
@@ -28,10 +31,10 @@ export function Footer(){
                         <li>
                             <ul className={style.contact}>
                                 <li><h3>Contato</h3></li>
-                                <li><a>Instagram</a></li>
-                                <li><a>Email</a></li>
-                                <li><a>Whatsapp</a></li>
-                                <li><a>Youtube</a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/mfprodutora_/">Instagram</a></li>
+                                <li><a target="_blank" href="mailto:mfprodutoraltda@gmail.com" >Email</a></li>
+                                <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5594991621273&text=" >Whatsapp</a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/@mayconfilmes30"  >Youtube</a></li>
                             </ul>
                         </li>
                     </ul>
