@@ -7,12 +7,12 @@ import { Feedback } from "./components/feedback/Feedback"
 import { Team } from "./components/team/Team"
 import { Contact } from "./components/contact/Contact"
 import {Footer}  from "./components/footer/Footer"
-
+import { BrowserRouter } from "react-router-dom"
 
 function App() {
 
   return (
-    <>
+    <BrowserRouter>
       <Nav/>
       <TopContent/>      
       <Results/>
@@ -21,8 +21,7 @@ function App() {
       <Team/>
       <Contact/>
       <Footer/>
-
-    </>
+    </BrowserRouter>
   )
 }
 

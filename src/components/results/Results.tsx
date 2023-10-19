@@ -44,7 +44,7 @@ export function Results(){
             </div>
         </div>
         <div   className={styles.containerResult}>
-            <h3 className='container'>Conheça o resultado de<br></br> nossos melhores <span>Projetos</span>.</h3>
+            <h3  className='container'>Conheça o resultado de<br></br> nossos melhores <span>Projetos</span>.</h3>
 
             {client.map((i) =>(
                 <ComponetResult
@@ -59,6 +59,7 @@ export function Results(){
             ))}
             
         </div>
+
         </>
     )
 }

@@ -44,7 +44,7 @@ export function Carroussel(){
 
     return(
         <>
-          <div className='container container-box' id="feedback">
+          <div className='container container-box'>
               <Swiper
                     style={{
                         '--swiper-navigation-color': 'var(--primary)',
@@ -67,7 +67,7 @@ export function Carroussel(){
               >
               {slides.map((item) => (
                 <SwiperSlide>
-                    <img className={style.imgCarroussel} 
+                    <img  className={style.imgCarroussel} 
                     src={item}>
                     </img>
                 </SwiperSlide>

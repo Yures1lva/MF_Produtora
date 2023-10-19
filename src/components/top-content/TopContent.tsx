@@ -4,7 +4,7 @@ import logo from '../../assets/imgs/logo2.png'
 export function TopContent(){
     return(
         <>
-            <div className={styles.imgFundo}>
+            <div id="home" className={styles.imgFundo}>
                 <div className="container">
                     <img src={logo} alt="Logo da Maycon Filmes Produtora" />
                 
@@ -20,6 +20,7 @@ export function TopContent(){
                     <button>Solicitar Orçamento</button>
                 </div>
             </div>
+
         </>
            
     )    

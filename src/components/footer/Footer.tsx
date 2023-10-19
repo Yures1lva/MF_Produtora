@@ -1,5 +1,7 @@
 import style from "./Footer.module.css"
 import logo from '../../assets/imgs/logo2.png'
+import { HashLink as Link } from "react-router-hash-link"
+
 
 export function Footer(){
     return(
@@ -17,14 +19,12 @@ export function Footer(){
                         <li>
                             <ul className={style.about}>
                                 <li><h3>Sobre</h3></li>
-                                <li><a>home</a></li>
-                                <li><a>Resultados</a></li>
-                                <li><a>Serviços</a></li>
-                                <li><a>Feedback</a></li>
-                                <li><a>Equipe</a></li>
-                                <li><a>Contato</a></li>
-
-                                
+                                    <li><Link to="#home" smooth> <a>Início</a></Link> </li>
+                                    <li><Link to="#results" smooth><a>Resultados</a></Link></li>
+                                    <li><Link to="#services" smooth><a>Serviços</a></Link></li>
+                                    <li><Link to="#feedback" smooth><a>Feedback</a></Link></li>
+                                    <li><Link to="#team" smooth><a>Equipe</a></Link></li>
+                                    <li><Link to="#contact" smooth><a>Contato</a></Link></li>                                
                             </ul>
                         </li>
                         

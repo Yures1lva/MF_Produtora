@@ -60,6 +60,8 @@ export function Team(){
                     />
                 ))}
             </div>
+            <div id="contact"></div>
+
            </div>
 
            

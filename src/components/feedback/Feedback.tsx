@@ -8,6 +8,8 @@ export function Feedback(){
             <p className='container title-section'>Feedback dos clientes</p>
             </div>
             <Carroussel />
+            <div id="team"></div>
+
         </>
     )
 }
