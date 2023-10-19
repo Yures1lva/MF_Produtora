@@ -1,4 +1,6 @@
 import styles from "./Results.module.css";
+import Fade from 'react-reveal/Fade';
+
 export interface ComponentResultProps{
     id?: number
     title: string;
@@ -15,6 +17,7 @@ export function ComponetResult({title, local, type, date, imgPerfil, img1, img2}
         <>
         <div className="container">
                 <div className={styles.TopContent}>
+                  <Fade left>
                   <img className={styles.imagePerfil} src={imgPerfil}></img>
                     <div className={styles.descript}>
                         <h4>{title}</h4>
@@ -24,10 +27,15 @@ export function ComponetResult({title, local, type, date, imgPerfil, img1, img2}
                             <li>{date}</li>
                         </ul>
                     </div>
+                  </Fade>
                 </div>
                 <div className={styles.introImages}>
-                    <img src={img1} alt="" />
+                    <Fade left>
+                        <img src={img1} alt="" />
+                    </Fade>
+                    <Fade right>
                     <img src={img2} alt="" /> 
+                    </Fade>                
                 </div>
             </div>
         </>

@@ -4,6 +4,8 @@ import drone from "../../assets/imgs/servicesImgs/drone.svg"
 import audio from "../../assets/imgs/servicesImgs/audio.svg"
 import post from "../../assets/imgs/servicesImgs/post.svg"
 import video from "../../assets/imgs/servicesImgs/video.svg"
+import Fade from 'react-reveal/Fade';
+
 
 
 const destaqueEspecialidades = [
@@ -37,19 +39,24 @@ export function Services(){
             <div  className={styles.background}>
                 <div className={styles.containerServices}>
                     <p  className="title-section" >Principais Serviços</p>
-                    <h3 >Conheça Nosso principais<br/><span>Serviços</span> oferecidos</h3>
+                    <Fade left>
+                    <h3 >Conheça Nosso principais<br/><span>Serviços</span>.</h3>
+                    </Fade>
+                    <Fade bottom>
+
                     <div className={styles.cards}>
                         
                         {destaqueEspecialidades.map((item) => (
-                            <ServiceCard
-
-                                img={item.img}
-                                type={item.type}
-                                content={item.content}
-
-                            />
+                                <ServiceCard
+                                    img={item.img}
+                                    type={item.type}
+                                    content={item.content}
+                                    />
                         ))}
+
                     </div>
+                    </Fade>
+
                     <p>Também temos</p>        
                 </div>
             </div>

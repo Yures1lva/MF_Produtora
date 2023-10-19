@@ -78,6 +78,7 @@ button {
   transition: all ease-in-out ;
   border-radius: 6px;
   border: 2px solid var(--primary);
+  color: var(--support-01);
 
 }
 button:hover {

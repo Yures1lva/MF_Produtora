@@ -3,6 +3,8 @@ import integrante1 from "../../assets/imgs/team/maycon.png"
 import integrante2 from "../../assets/imgs/team/loyrielly.png"
 import integrante3 from "../../assets/imgs/team/integrante01.png"
 import { CardTeam } from "./CardTeam"
+import Fade from 'react-reveal/Fade';
+
 
 const team = [
     {
@@ -43,11 +45,14 @@ export function Team(){
     return(
         <>
             <div className={style.title}>
-            <p className='container title-section'>Nossos profissionais</p>
+                <Fade top>
+                    <p className='container title-section'>Nossos profissionais</p>
+                </Fade>
             </div>        
 
             <div  className="container">
 
+            <Fade top>
             <div className={style.cards}>
                 {team.map((item)=>(
                     <CardTeam
@@ -60,6 +65,7 @@ export function Team(){
                     />
                 ))}
             </div>
+            </Fade>
             <div id="contact"></div>
 
            </div>

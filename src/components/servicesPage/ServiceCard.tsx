@@ -1,5 +1,6 @@
 import styles from "./Services.module.css"
 
+
 interface CardType{
     img: string,
     type: string,
